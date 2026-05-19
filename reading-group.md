@@ -13,7 +13,7 @@ A reading group that meets weekly to discuss topics related to the application o
 
 ### Schedule
 Starting **May 12, 2026**, we meet <time class="local-time" datetime="2026-06-02T20:00:00-04:00">
-  at 8:00 PM Eastern
+  at **8:00 PM Eastern**
 </time> on the ILF Categorical Logic voice channel within the [discord server](https://discord.com/invite/GqyMYurz3).
 
 A more complete schedule with tenative topics can be found [here](https://docs.google.com/spreadsheets/d/12U5UZWh7pqOU_zV92sXX0LmpECJVU5VBQJzbxJPtSTA/edit?gid=0#gid=0).
