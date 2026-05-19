@@ -334,48 +334,80 @@ p + h3,
   margin-top: 2.6rem;
 }
 
-/* Announcement / notice box */
+/* Announcement / paper notice */
 
 .announcement {
   position: relative;
+  isolation: isolate;
   overflow: hidden;
 
   background:
-    radial-gradient(circle at 18% 22%, rgba(255, 255, 255, 0.35), transparent 18rem),
-    radial-gradient(circle at 82% 70%, rgba(82, 98, 75, 0.10), transparent 16rem),
     linear-gradient(
       135deg,
-      rgba(116, 132, 94, 0.24),
-      rgba(238, 231, 220, 0.78)
-    ),
-    #dfe4d2;
+      rgba(230, 236, 214, 0.96),
+      rgba(215, 224, 198, 0.96)
+    );
+  border: 1px solid rgba(82, 98, 75, 0.22);
+  border-radius: 3px 14px 5px 18px;
+  padding: 1.25rem 1.35rem;
+  margin: 2.35rem 0 2.9rem;
 
-  border: 1px solid rgba(82, 98, 75, 0.28);
-  border-left: 5px solid #65735c;
-  border-radius: var(--radius);
-  padding: 1.2rem 1.35rem;
-  margin: 2.25rem 0 2.75rem;
   box-shadow:
-    0 12px 32px rgba(47, 42, 36, 0.045),
-    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+    0 1px 0 rgba(255, 255, 255, 0.55) inset,
+    0 12px 28px rgba(47, 42, 36, 0.075);
 }
 
+/* paper fibers / grain */
 .announcement::before {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: -1;
   pointer-events: none;
 
   background-image:
-    linear-gradient(rgba(47, 42, 36, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(47, 42, 36, 0.018) 1px, transparent 1px);
-  background-size: 14px 14px, 18px 18px;
-  opacity: 0.42;
+    repeating-linear-gradient(
+      0deg,
+      rgba(47, 42, 36, 0.018) 0px,
+      rgba(47, 42, 36, 0.018) 1px,
+      transparent 1px,
+      transparent 5px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.12) 0px,
+      rgba(255, 255, 255, 0.12) 1px,
+      transparent 1px,
+      transparent 7px
+    ),
+    radial-gradient(circle at 18% 30%, rgba(255, 255, 255, 0.35), transparent 12rem),
+    radial-gradient(circle at 85% 75%, rgba(82, 98, 75, 0.10), transparent 11rem);
+
+  opacity: 0.72;
   mix-blend-mode: multiply;
 }
 
+/* slight uneven paper edge / aging */
+.announcement::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.35),
+      transparent 22%,
+      transparent 78%,
+      rgba(47, 42, 36, 0.035)
+    );
+
+  border-radius: inherit;
+}
+
 .announcement p {
-  position: relative;
   margin: 0;
 }
 
