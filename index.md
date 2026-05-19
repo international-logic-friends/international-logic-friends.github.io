@@ -14,9 +14,7 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 **ILF Categorical Logic** will meet on <time class="local-time" datetime="2026-05-19T20:00:00-04:00">8:00 PM Eastern</time> to discuss **Intro to Category Theory Pt. 1**.
 
-For preparation, read chapter 2 and complete the exercises, downloadable<a href="{{ '/assets/pdfs/ILF_CL_Exercises.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
-  here
-</a>.
+For preparation, read chapter 2 and complete the exercises, downloadable [here]({{ '/assets/pdfs/ILF_CL_Exercises.pdf' | relative_url }}).
 
 Newcomers are welcome.
 
