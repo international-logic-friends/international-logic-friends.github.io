@@ -12,9 +12,9 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 ### Announcement
 
-**ILF Categorical Logic** meets on <time class="local-time" datetime="2026-06-19T20:00:00-04:00">8:00 PM Eastern</time>. The topic will be **Intro to Category Theory Pt. 1**.
+#### ILF Categorical Logic meets on <time class="local-time" datetime="2026-06-19T20:00:00-04:00">8:00 PM Eastern</time>. The topic will be Intro to Category Theory Pt. 1.
 
-Newcomers are welcome.
+#### Newcomers are welcome.
 
 </div>
 
