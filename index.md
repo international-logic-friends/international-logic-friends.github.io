@@ -12,7 +12,9 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 ### Announcement
 
-**ILF Categorical Logic** meets on <time class="local-time" datetime="2026-06-19T20:00:00-04:00">8:00 PM Eastern</time>. The topic will be **Intro to Category Theory Pt. 1**.
+**ILF Categorical Logic** will meet on <time class="local-time" datetime="2026-06-19T20:00:00-04:00">8:00 PM Eastern</time> to discuss **Intro to Category Theory Pt. 1**.
+
+For **Exceptional Preparation**, read chapter 2 and complete the exercises (downloadable [here]({{ '/assets/pdfs/ILF_Su26_Exercises (1).pdf | relative_url}})).
 
 Newcomers are welcome.
 
