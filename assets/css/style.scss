@@ -334,7 +334,7 @@ p + h3,
   margin-top: 2.6rem;
 }
 
-/* Announcement / paper notice */
+/* Announcement / torn paper notice */
 
 .announcement {
   position: relative;
@@ -342,22 +342,43 @@ p + h3,
   overflow: hidden;
 
   background:
+    radial-gradient(circle at 18% 22%, rgba(255, 255, 255, 0.38), transparent 11rem),
+    radial-gradient(circle at 86% 72%, rgba(82, 98, 75, 0.10), transparent 13rem),
     linear-gradient(
       135deg,
-      rgba(230, 236, 214, 0.96),
-      rgba(215, 224, 198, 0.96)
+      rgba(231, 238, 216, 0.98),
+      rgba(214, 224, 197, 0.98)
     );
+
   border: 1px solid rgba(82, 98, 75, 0.22);
-  border-radius: 3px 14px 5px 18px;
-  padding: 1.25rem 1.35rem;
+  border-left: 0;
+  border-radius: 0 14px 7px 0;
+
+  padding: 1.25rem 1.35rem 1.25rem 1.65rem;
   margin: 2.35rem 0 2.9rem;
 
-  box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.55) inset,
-    0 12px 28px rgba(47, 42, 36, 0.075);
+  clip-path: polygon(
+    0.42rem 0%,
+    100% 0%,
+    100% 100%,
+    0.34rem 100%,
+    0.52rem 92%,
+    0.24rem 84%,
+    0.48rem 76%,
+    0.20rem 68%,
+    0.42rem 60%,
+    0.16rem 52%,
+    0.46rem 44%,
+    0.22rem 36%,
+    0.50rem 28%,
+    0.18rem 20%,
+    0.44rem 12%
+  );
+
+  filter: drop-shadow(0 12px 24px rgba(47, 42, 36, 0.075));
 }
 
-/* paper fibers / grain */
+/* paper fibers */
 .announcement::before {
   content: "";
   position: absolute;
@@ -375,39 +396,46 @@ p + h3,
     ),
     repeating-linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.12) 0px,
-      rgba(255, 255, 255, 0.12) 1px,
+      rgba(255, 255, 255, 0.13) 0px,
+      rgba(255, 255, 255, 0.13) 1px,
       transparent 1px,
-      transparent 7px
-    ),
-    radial-gradient(circle at 18% 30%, rgba(255, 255, 255, 0.35), transparent 12rem),
-    radial-gradient(circle at 85% 75%, rgba(82, 98, 75, 0.10), transparent 11rem);
+      transparent 8px
+    );
 
-  opacity: 0.72;
+  opacity: 0.6;
   mix-blend-mode: multiply;
 }
 
-/* slight uneven paper edge / aging */
+/* slightly fibrous torn edge */
 .announcement::after {
   content: "";
   position: absolute;
-  inset: 0;
-  z-index: -1;
+  top: 0;
+  left: 0.15rem;
+  bottom: 0;
+  width: 1rem;
   pointer-events: none;
 
   background:
     linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.34),
+      rgba(255, 255, 255, 0.05),
+      transparent
+    ),
+    repeating-linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0.35),
-      transparent 22%,
-      transparent 78%,
-      rgba(47, 42, 36, 0.035)
+      rgba(47, 42, 36, 0.035) 0px,
+      rgba(47, 42, 36, 0.035) 1px,
+      transparent 1px,
+      transparent 9px
     );
 
-  border-radius: inherit;
+  opacity: 0.5;
 }
 
 .announcement p {
+  position: relative;
   margin: 0;
 }
 
