@@ -15,4 +15,4 @@ As of summer 2026, we are running the __ILF Categorical Logic__ reading group. W
 
 ## Join
 
-The Discord is public to join. More details coming soon.
+The Discord is public to join. Simply apply through [this](https://discord.gg/GqyMYurz3) by providing your name, institution (if you have one), and education level. All are welcome, but this provides context to the moderators. Applications are in place to prevent bots and spam, not to prevent people from joining.
