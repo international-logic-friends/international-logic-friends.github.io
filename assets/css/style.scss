@@ -336,24 +336,9 @@ p + h3,
 
 /* Announcement / torn green paper notice */
 
-/* Announcement / natural torn green paper notice */
-
-.announcement {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-
-  background: #c7d1b7;
-
-  border: 1px solid rgba(68, 91, 74, 0.22);
-  border-radius: 0;
-
-  padding: 1.45rem 1.55rem 1.4rem 1.85rem;
-  margin: 2.45rem 0 3rem;
-
   clip-path: polygon(
     /* top edge */
-    0.85rem 0.18rem,
+    0.55rem 0.18rem,
     5% 0.05rem,
     11% 0.22rem,
     18% 0.10rem,
@@ -387,91 +372,18 @@ p + h3,
     28% calc(100% - 0.26rem),
     19% calc(100% - 0.13rem),
     10% calc(100% - 0.31rem),
-    0.65rem calc(100% - 0.16rem),
+    0.55rem calc(100% - 0.16rem),
 
-    /* left edge */
-    0.34rem 91%,
-    0.72rem 83%,
-    0.26rem 74%,
-    0.62rem 67%,
-    0.18rem 58%,
-    0.55rem 49%,
-    0.24rem 41%,
-    0.68rem 32%,
-    0.20rem 23%,
-    0.58rem 15%
+    /* left edge — gentler, more like the other sides */
+    0.32rem 92%,
+    0.48rem 84%,
+    0.38rem 76%,
+    0.52rem 68%,
+    0.34rem 59%,
+    0.50rem 51%,
+    0.36rem 43%,
+    0.54rem 34%,
+    0.31rem 25%,
+    0.49rem 16%,
+    0.36rem 8%
   );
-
-  filter: drop-shadow(0 13px 22px rgba(47, 42, 36, 0.08));
-}
-
-/* subtle handmade paper fibers */
-.announcement::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-
-  background-image:
-    radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.22) 0 1px, transparent 1.5px),
-    radial-gradient(circle at 68% 34%, rgba(47, 42, 36, 0.055) 0 0.8px, transparent 1.4px),
-    radial-gradient(circle at 38% 78%, rgba(255, 255, 255, 0.18) 0 1px, transparent 1.6px),
-    repeating-linear-gradient(
-      4deg,
-      rgba(47, 42, 36, 0.018) 0px,
-      rgba(47, 42, 36, 0.018) 1px,
-      transparent 1px,
-      transparent 8px
-    ),
-    repeating-linear-gradient(
-      91deg,
-      rgba(255, 255, 255, 0.09) 0px,
-      rgba(255, 255, 255, 0.09) 1px,
-      transparent 1px,
-      transparent 11px
-    );
-
-  opacity: 0.58;
-  mix-blend-mode: multiply;
-}
-
-/* fibrous torn left edge */
-.announcement::after {
-  content: "";
-  position: absolute;
-  top: 0.35rem;
-  bottom: 0.35rem;
-  left: 0.16rem;
-  width: 1.15rem;
-  pointer-events: none;
-
-  background:
-    repeating-linear-gradient(
-      177deg,
-      rgba(47, 42, 36, 0.050) 0px,
-      rgba(47, 42, 36, 0.050) 1px,
-      transparent 1px,
-      transparent 7px
-    ),
-    repeating-linear-gradient(
-      93deg,
-      rgba(255, 255, 255, 0.14) 0px,
-      rgba(255, 255, 255, 0.14) 1px,
-      transparent 1px,
-      transparent 9px
-    );
-
-  opacity: 0.5;
-}
-
-.announcement p {
-  position: relative;
-  margin: 0;
-}
-
-.announcement strong {
-  font-family: var(--serif);
-  font-weight: 800;
-  color: var(--text);
-}
