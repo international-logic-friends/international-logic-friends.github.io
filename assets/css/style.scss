@@ -337,28 +337,50 @@ p + h3,
 /* Announcement / notice box */
 
 .announcement {
+  position: relative;
+  overflow: hidden;
+
   background:
+    radial-gradient(circle at 18% 22%, rgba(255, 255, 255, 0.35), transparent 18rem),
+    radial-gradient(circle at 82% 70%, rgba(82, 98, 75, 0.10), transparent 16rem),
     linear-gradient(
       135deg,
-      rgba(164, 109, 82, 0.14),
-      rgba(82, 98, 75, 0.08)
+      rgba(116, 132, 94, 0.24),
+      rgba(238, 231, 220, 0.78)
     ),
-    var(--surface);
-  border: 1px solid rgba(164, 109, 82, 0.28);
-  border-left: 5px solid var(--accent);
+    #dfe4d2;
+
+  border: 1px solid rgba(82, 98, 75, 0.28);
+  border-left: 5px solid #65735c;
   border-radius: var(--radius);
-  padding: 1.15rem 1.3rem;
+  padding: 1.2rem 1.35rem;
   margin: 2.25rem 0 2.75rem;
-  box-shadow: 0 12px 32px rgba(47, 42, 36, 0.045);
+  box-shadow:
+    0 12px 32px rgba(47, 42, 36, 0.045),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.announcement::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background-image:
+    linear-gradient(rgba(47, 42, 36, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 42, 36, 0.018) 1px, transparent 1px);
+  background-size: 14px 14px, 18px 18px;
+  opacity: 0.42;
+  mix-blend-mode: multiply;
 }
 
 .announcement p {
-  margin-bottom: 0;
+  position: relative;
+  margin: 0;
 }
 
-.announcement strong:first-child {
+.announcement strong {
   font-family: var(--serif);
-  font-size: 1.08rem;
   font-weight: 800;
   color: var(--text);
 }
