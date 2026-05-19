@@ -1,0 +1,7 @@
+title: International Logic Friends
+description: A student-run logic community that hosts reading groups and discussion.
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown

@@ -1,0 +1,27 @@
+---
+---
+
+:root {
+  --bg: #f3efe7;
+  --text: #2f2a24;
+  --muted: #6a6258;
+  --link: #52624b;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+a {
+  color: var(--link);
+}
