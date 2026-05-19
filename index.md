@@ -8,10 +8,13 @@ title: Home
 {: .lede}
 A student-run virtual logic community that hosts reading groups and discussion. We welcome anyone, no matter specific interest or background.
 
-<div class="announcement" markdown="1">
-
-**Announcement.** Our categorical logic reading group meets Tuesdays at <time class="local-time" datetime="2026-06-02T20:00:00-04:00">Tuesday, June 2 at 8:00 PM EDT</time>. Newcomers are welcome.
-
+<div class="announcement">
+  <p>
+    <strong>Announcement.</strong>
+    Our categorical logic reading group meets Tuesdays at
+    <time class="local-time time-only" datetime="2026-06-02T20:00:00-04:00">8:00 PM Eastern</time>.
+    Newcomers are welcome.
+  </p>
 </div>
 
 ### Current reading group(s)
