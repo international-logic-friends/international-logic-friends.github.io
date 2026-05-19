@@ -333,3 +333,31 @@ p + h3,
 .card + h3 {
   margin-top: 2.6rem;
 }
+
+/* Announcement box */
+
+.announcement {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(164, 109, 82, 0.16),
+      rgba(82, 98, 75, 0.09)
+    ),
+    var(--surface);
+  border: 1px solid rgba(164, 109, 82, 0.32);
+  border-left: 5px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.35rem;
+  margin: 2rem 0;
+  box-shadow: 0 14px 36px rgba(47, 42, 36, 0.055);
+}
+
+.announcement p:last-child {
+  margin-bottom: 0;
+}
+
+.announcement strong:first-child {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  color: var(--text);
+}
