@@ -9,10 +9,13 @@ title: Home
 A student-run virtual logic community that hosts reading groups and discussion. We welcome anyone, no matter specific interest or background.
 
 <div class="announcement" markdown="1">
-    ### Announcement
-    **ILF Categorical Logic** meets on
-    <time class="local-time" datetime="2026-06-19T20:00:00-04:00">8:00 PM Eastern</time>. The topic will be **Intro to Category Theory Pt. 1**.
-    Newcomers are welcome.
+
+### Announcement
+
+**ILF Categorical Logic** meets on <time class="local-time" datetime="2026-06-19T20:00:00-04:00">8:00 PM Eastern</time>. The topic will be **Intro to Category Theory Pt. 1**.
+
+Newcomers are welcome.
+
 </div>
 
 ### Current reading group(s)
