@@ -23,17 +23,17 @@ A more complete schedule with tenative topics can be found [here](https://docs.g
 Readings and exercises are provided after the prior meeting. Due to chaotic and uneven schedules, we have **three tiers** of participation in our reading group. **Note:** even if you are unable to complete one of these tiers, we still encourage you to show up to meetings. 
 
 #### Minimal Background
-The least amount of preparation required to understand the meetings. We estimate this should take ~ one hour to complete both the reading and exercises. 
+The least amount of preparation required to understand the meetings. We estimate this should take about one hour to complete both the reading and exercises. 
 
 #### Excellent Preparation
-This is the *target* amount of preparation to understand the meeting. This should take  three to five hours a week. 
+This is the *target* amount of preparation to understand the meeting. This should take about three to five hours a week. 
 
 #### Extra Preparation
-Supplementary work that provides deeper understanding and possible connections to other fields. This should take ~ six to ten hours a week. 
+Supplementary work that provides deeper understanding and possible connections to other fields. This should take roughly six to ten hours a week. 
 
 
 ### Meeting Structure
-Our meetings last ~ two hours and are in two parts, a one hour talk and one hour of guided exercises. 
+Our meetings last around two hours and are in two parts, a one hour talk and one hour of guided exercises. 
 
 #### Talk
 The talk will cover topics in the previous reading in more detail, with time for questions. 
