@@ -3,33 +3,44 @@
 
 :root {
   --bg: #f3efe7;
+  --surface: #f8f4ec;
+  --surface-soft: #eee7dc;
   --text: #2f2a24;
   --muted: #6a6258;
+  --faint: #8b8175;
+  --border: #d9d1c5;
   --link: #52624b;
+  --link-hover: #374533;
+  --accent: #a46d52;
+
+  --radius: 18px;
+  --measure: 720px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg);
 }
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    radial-gradient(circle at top left, rgba(164, 109, 82, 0.10), transparent 32rem),
+    radial-gradient(circle at bottom right, rgba(82, 98, 75, 0.10), transparent 34rem),
+    var(--bg);
   color: var(--text);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.65;
-}
-
-main {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 4rem 1.5rem;
-}
-
-a {
-  color: var(--link);
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .site-nav {
-  max-width: 920px;
+  max-width: 1040px;
   margin: 0 auto;
-  padding: 1.25rem 1.5rem;
+  padding: 1.35rem 1.5rem;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -38,24 +49,170 @@ a {
 }
 
 .site-title {
-  font-weight: 650;
-  text-decoration: none;
   color: var(--text);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-decoration: none;
 }
 
 .nav-links {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  font-size: 0.94rem;
 }
 
 .nav-links a {
   color: var(--muted);
   text-decoration: none;
+  transition: color 160ms ease;
 }
 
 .nav-links a:hover {
+  color: var(--link-hover);
+}
+
+.site-main {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 6rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Source Serif 4", Georgia, serif;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  color: var(--text);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 7vw, 4.75rem);
+  margin: 0 0 1.25rem;
+}
+
+h2 {
+  font-size: clamp(1.7rem, 4vw, 2.45rem);
+  margin-top: 3.5rem;
+  margin-bottom: 0.85rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+  margin-top: 2rem;
+}
+
+p {
+  margin: 0 0 1.25rem;
+}
+
+.lede {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: clamp(1.25rem, 2.5vw, 1.55rem);
+  line-height: 1.55;
+  color: var(--muted);
+  max-width: 680px;
+}
+
+a {
   color: var(--link);
-  text-decoration: underline;
-  text-underline-offset: 0.25em;
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 0.08em;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 3rem 0;
+}
+
+.card {
+  background: rgba(248, 244, 236, 0.82);
+  border: 1px solid rgba(47, 42, 36, 0.13);
+  border-radius: var(--radius);
+  padding: 1.35rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 18px 50px rgba(47, 42, 36, 0.055);
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.kicker {
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin-bottom: 0.65rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 1.6rem;
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid rgba(47, 42, 36, 0.18);
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  color: var(--text);
+  background: var(--surface);
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(47, 42, 36, 0.06);
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.button:hover {
+  color: var(--text);
+  border-color: rgba(82, 98, 75, 0.45);
+  background: #fbf7ee;
+  transform: translateY(-1px);
+}
+
+.button.secondary {
+  background: transparent;
+  box-shadow: none;
+  color: var(--link);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.small {
+  font-size: 0.92rem;
+}
+
+@media (max-width: 700px) {
+  .site-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .site-main {
+    padding-top: 3.25rem;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
 }
