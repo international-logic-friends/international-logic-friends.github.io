@@ -25,3 +25,37 @@ main {
 a {
   color: var(--link);
 }
+
+.site-nav {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid rgba(47, 42, 36, 0.14);
+}
+
+.site-title {
+  font-weight: 650;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
