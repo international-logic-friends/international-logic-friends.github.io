@@ -479,3 +479,33 @@ p + h3,
   font-weight: 800;
   color: var(--text);
 }
+
+/* Announcement typography fixes */
+
+.announcement {
+  padding: 1rem 1.55rem 1.15rem 1.55rem;
+}
+
+.announcement h3 {
+  position: relative;
+  margin: 0 0 0.7rem;
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.announcement p {
+  position: relative;
+  margin: 0 0 0.75rem;
+}
+
+.announcement p:last-child {
+  margin-bottom: 0;
+}
+
+.announcement p strong {
+  font-family: inherit;
+  font-weight: 700;
+}
