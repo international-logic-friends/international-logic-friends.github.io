@@ -20,7 +20,7 @@ For **excellent** preparation, chapter 3 sections 1-9.
 
 For **extra** preparation, watch the first seven of these videos on this [playlist](https://www.youtube.com/watch?v=yeQcmxM2e5I&list=PLE337D7DEA972E632). 
 
-[Exercises (minus extra preparation) added to the end of document]({{ '/assets/pdfs/ILF_Su26_Exercises2_temp.pdf' | relative_url }})
+[Exercises (minus extra preparation) added to the end of document]({{ '/assets/pdfs/ILF_Su26_Exercises2.pdf' | relative_url }})
 
 [Solutions to Meeting II Exercises]({{ '/assets/pdfs/ILF_Su26_Solutions1.pdf' | relative_url }})
 
