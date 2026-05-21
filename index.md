@@ -14,15 +14,15 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 **ILF Categorical Logic** will meet on **<time class="local-time" datetime="2026-05-26T20:00:00-04:00">8:00 PM Eastern</time>** to discuss **Intro to Category Theory Pt. 2** and cover **Topoi: The Categorial Analysis of Logic** by Robert Goldblatt.
 
-For **minimal** preparation, read chapter 3 sections 1-8, 13. 
+For **minimal** preparation, read chapter 3 sections 5, 7, and 8. 
 
-For **excellent** preparation, all of chapter 3. 
+For **excellent** preparation, chapter 3 sections 1-9. 
 
-For **extra** preparation, watch some of these videos on this [playlist](https://www.youtube.com/watch?v=yeQcmxM2e5I&list=PLE337D7DEA972E632). 
+For **extra** preparation, watch the first seven of these videos on this [playlist](https://www.youtube.com/watch?v=yeQcmxM2e5I&list=PLE337D7DEA972E632). 
 
-Exercises for this week and solutions from meeting II to come. 
+[Exercises (minus extra preparation) added to the end of document]({{ '/assets/pdfs/ILF_Su26_Exercises2.pdf' | relative_url }})
 
-Newcomers are welcome.
+[Solutions to Meeting II Exercises]({{ '/assets/pdfs/ILF_Su26_Solutions1.pdf' | relative_url }})
 
 </div>
 
