@@ -12,17 +12,17 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 ### Announcement
 
-**ILF Categorical Logic** will meet on **<time class="local-time" datetime="2026-05-26T20:00:00-04:00">8:00 PM Eastern</time>** to discuss **Intro to Category Theory Pt. 2** and cover **Topoi: The Categorial Analysis of Logic** by Robert Goldblatt.
+**ILF Categorical Logic** will meet on **<time class="local-time" datetime="2026-06-02T20:00:00-04:00">8:00 PM Eastern</time>** to discuss **Intro to Category Theory Pt. 3** and cover the **definition of a topos**.
 
-For **minimal** preparation, read chapter 3 sections 3, 5, 7, and 8. 
+For **minimal** preparation, read chapter 3 sections 10 and 13 as well as chapter 4 sections 1 and 2. 
 
-For **excellent** preparation, chapter 3 sections 1-9. 
+For **excellent** preparation, chapter 3 sections 9-16 and chapter 4 sections 1-4. 
 
-For **extra** preparation, watch the first seven of these videos on this [playlist](https://www.youtube.com/watch?v=yeQcmxM2e5I&list=PLE337D7DEA972E632). 
+For **extra** preparation, watch videos 8-16 from this [playlist](https://www.youtube.com/watch?v=yeQcmxM2e5I&list=PLE337D7DEA972E632). 
 
-[Exercises added to the end of document]({{ '/assets/pdfs/ILF_Su26_Exercises2.pdf' | relative_url }})
+[Exercises have been added to this document]({{ '/assets/pdfs/ILF_Su26_Exercises3.pdf' | relative_url }})
 
-[Solutions to Meeting II Exercises]({{ '/assets/pdfs/ILF_Su26_Solutions1.pdf' | relative_url }})
+[Solutions to Exercises]({{ '/assets/pdfs/ILF_Su26_Exercise_Solutions2.pdf' | relative_url }})
 
 </div>
 
