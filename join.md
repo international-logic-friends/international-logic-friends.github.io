@@ -4,7 +4,7 @@ title: Join
 permalink: /join/
 bottom_image: /assets/images/axolotlteaching1.png
 bottom_image_class: decoration-right
-bottom_image_width: 420px
+bottom_image_width: 380px
 ---
 
 ## Join
