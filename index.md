@@ -10,7 +10,8 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 <div class="announcement" markdown="1">
 
-### Announcement <img
+### Announcement 
+<img
   class="image-transparent small"
   src="{{ '/assets/images/axolotlnotif1.png' | relative_url }}"
   alt="Notification Axolotl">
