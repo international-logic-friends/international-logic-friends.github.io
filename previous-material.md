@@ -2,6 +2,9 @@
 layout: default
 title: Previous Material
 permalink: /previous-material/
+bottom_image: /assets/images/axolotl2reading.png
+bottom_image_class: decoration-right
+bottom_image_width: 420px
 ---
 
 ## ILF Categorical Logic Summer 2026
