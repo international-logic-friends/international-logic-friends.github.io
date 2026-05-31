@@ -10,12 +10,6 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 <div class="announcement" markdown="1">
 
-### Announcement 
-<img
-  class="image-transparent small"
-  src="{{ '/assets/images/axolotlnotif1.png' | relative_url }}"
-  alt="Notification Axolotl">
-
 **ILF Categorical Logic** will meet on **<time class="local-time" datetime="2026-06-02T20:00:00-04:00">8:00 PM Eastern</time>** to discuss **Intro to Category Theory Pt. 3** and cover the **definition of a topos**.
 
 For **minimal** preparation, read chapter 3 sections 10 and 13 as well as chapter 4 sections 1 and 2. 
