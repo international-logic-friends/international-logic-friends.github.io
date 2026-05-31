@@ -3,7 +3,10 @@ layout: default
 title: Join
 permalink: /join/
 ---
-
+<img
+  class="image-transparent medium"
+  src="{{ '/assets/images/axolotlteaching1.png' | relative_url }}"
+  alt="A blue axolotl having a conversation with a pink axolotl and a brown axolotl at a table">
 ## Join
 We welcome members of any background or field. 
 

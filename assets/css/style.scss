@@ -291,6 +291,8 @@ p + h3,
 /* Announcement / natural torn blue paper notice */
 
 .announcement {
+  --announcement-image-size: 88px;
+
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -318,7 +320,7 @@ p + h3,
   border: 1px solid rgba(63, 86, 99, 0.24);
   border-radius: 0;
 
-  padding: 1rem 1.55rem 1.15rem 1.55rem;
+  padding: 1rem calc(var(--announcement-image-size) + 2rem) 1.15rem 1.55rem;
   margin: 2.45rem 0 3rem;
 
   clip-path: polygon(
@@ -384,20 +386,12 @@ p + h3,
   filter: drop-shadow(0 13px 22px rgba(47, 42, 36, 0.08));
 }
 
-/* automatic icon + label */
+/* automatic announcement label */
 .announcement::before {
   content: "Announcement";
   position: relative;
   display: block;
-
-  min-height: 1.3em;
-  margin-bottom: 0.75rem;
-  padding-left: 1.75em;
-
-  background-image: url("../images/axolotlnotif1.png");
-  background-repeat: no-repeat;
-  background-position: left 50%;
-  background-size: 1.25em 1.25em;
+  margin-bottom: 0.7rem;
 
   font-family: var(--serif);
   font-size: 1.45rem;
@@ -407,26 +401,23 @@ p + h3,
   color: var(--text);
 }
 
-/* very soft left-edge fibers */
+/* automatic right-side image */
 .announcement::after {
   content: "";
   position: absolute;
-  top: 0.4rem;
-  bottom: 0.4rem;
-  left: 0.22rem;
-  width: 0.55rem;
+  right: 1.4rem;
+  top: 50%;
+  width: var(--announcement-image-size);
+  height: var(--announcement-image-size);
+  transform: translateY(-50%);
+
+  background-image: url("../images/announcement-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  opacity: 0.92;
   pointer-events: none;
-
-  background:
-    repeating-linear-gradient(
-      177deg,
-      rgba(47, 42, 36, 0.022) 0px,
-      rgba(47, 42, 36, 0.022) 1px,
-      transparent 1px,
-      transparent 10px
-    );
-
-  opacity: 0.26;
 }
 
 .announcement p {
@@ -443,6 +434,16 @@ p + h3,
   font-weight: 700;
 }
 
+@media (max-width: 700px) {
+  .announcement {
+    --announcement-image-size: 64px;
+    padding-right: calc(var(--announcement-image-size) + 1.4rem);
+  }
+
+  .announcement::after {
+    right: 1rem;
+  }
+}
 /* Mobile */
 
 @media (max-width: 700px) {
