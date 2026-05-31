@@ -3,7 +3,7 @@ layout: default
 title: Home
 bottom_image: /assets/images/announcement-icon.png
 bottom_image_class: decoration-right
-bottom_image_width: 420px
+bottom_image_width: 390px
 ---
 
 ## International Logic Friends
