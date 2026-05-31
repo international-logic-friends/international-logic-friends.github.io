@@ -2,7 +2,7 @@
 layout: default
 title: Reading Group
 permalink: /reading-group/
-bottom_image: /assets/images/axolotblackboard.png
+bottom_image: /assets/images/axolotlblackboard.png
 bottom_image_class: decoration-right
 bottom_image_width: 420px
 ---
