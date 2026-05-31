@@ -523,3 +523,33 @@ p + h3,
     margin: 2rem auto;
   }
 }
+
+/* Join page bottom illustration */
+
+.join-page-shell {
+  min-height: calc(100vh - 12rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.join-page-text {
+  max-width: 42rem;
+}
+
+.join-bottom-image {
+  display: block;
+  width: min(380px, 58vw);
+  height: auto;
+  margin: auto auto 0;
+  pointer-events: none;
+}
+
+@media (max-width: 700px) {
+  .join-page-shell {
+    min-height: calc(100vh - 9rem);
+  }
+
+  .join-bottom-image {
+    width: min(260px, 72vw);
+  }
+}
