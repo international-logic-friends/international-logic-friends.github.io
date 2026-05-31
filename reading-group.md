@@ -4,7 +4,7 @@ title: Reading Group
 permalink: /reading-group/
 bottom_image: /assets/images/axolotlblackboard.png
 bottom_image_class: decoration-right
-bottom_image_width: 420px
+bottom_image_width: 400px
 ---
 
 ## Reading Group(s)
