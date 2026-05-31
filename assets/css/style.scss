@@ -483,3 +483,46 @@ p + h3,
     animation: none !important;
   }
 }
+
+/* Transparent / cutout images */
+
+.image-transparent {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  filter: saturate(0.9) contrast(0.96);
+}
+
+.image-transparent.small {
+  max-width: 220px;
+}
+
+.image-transparent.medium {
+  max-width: 420px;
+}
+
+.image-transparent.large {
+  max-width: 620px;
+}
+
+.image-float-right {
+  float: right;
+  max-width: 260px;
+  margin: 0.25rem 0 1rem 1.5rem;
+}
+
+.image-float-left {
+  float: left;
+  max-width: 260px;
+  margin: 0.25rem 1.5rem 1rem 0;
+}
+
+@media (max-width: 700px) {
+  .image-float-right,
+  .image-float-left {
+    float: none;
+    max-width: 85%;
+    margin: 2rem auto;
+  }
+}
