@@ -23,6 +23,7 @@ For **extra** preparation, watch the first 11 videos from this [playlist](https:
 
 [Exercises]({{ '/assets/pdfs/ILF_Su26_Exercises3.pdf' | relative_url }})
 
+[Solutions]({{ '/assets/pdfs/ILF_Su26_Exercise_Solutions3.pdf' | relative_url }})
 </div>
 
 ### Current reading group(s)
