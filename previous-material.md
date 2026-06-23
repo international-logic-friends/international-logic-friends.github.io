@@ -13,7 +13,7 @@ bottom_image_width: 380px
 
 [Exercises]({{ '/assets/pdfs/ILF_Su26_Exercises3.pdf' | relative_url }})
 
-[Solutions to Select Exercises]({{ '/assets/pdfs/ILF_Su26_Exercise_Solutions3.pdf' | relative_url }})
+[Solutions to Select Exercises]({{ '/assets/pdfs/ILF_Su26_Exercise_Solutions.pdf' | relative_url }})
 
 #### Meeting I
 
