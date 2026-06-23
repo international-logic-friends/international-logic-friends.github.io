@@ -7,14 +7,6 @@ bottom_image_class: decoration-right
 bottom_image_width: 380px
 ---
 
-## ILF Categorical Logic Summer 2026 Session 2
-
-**Session 2** comprises of interactive sessions.
-
-#### Meeting I
-
-[Slides]({{ '/assets/pdfs/ILF_Su26_Meeting_6.pdf' | relative_url }})
-
 ## ILF Categorical Logic Summer 2026 Session 1
 
 **Session 1** comprised of traditional lectures covering chapters 2-5 of Topoi by Goldblatt. If self studying, this is probably preferable. 
@@ -42,3 +34,11 @@ bottom_image_width: 380px
 #### Meeting V
 
 [Slides]({{ '/assets/pdfs/ILF_Su26_Meeting_5_Slides.pdf' | relative_url }})
+
+## ILF Categorical Logic Summer 2026 Session 2
+
+**Session 2** comprises of interactive lessons.
+
+#### Meeting I
+
+[Slides]({{ '/assets/pdfs/ILF_Su26_Meeting_6.pdf' | relative_url }})
