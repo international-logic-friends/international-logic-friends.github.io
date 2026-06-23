@@ -12,16 +12,19 @@ Currently, our only reading group is **ILF Categorical Logic**.
 
 
 ### ILF Categorical Logic
-A reading group that meets weekly to discuss topics related to the application of category theory to logic. As of Summer 2026, we are focused on [topos theory](https://ncatlab.org/nlab/show/topos). We are currently reading Robert Goldblatt's **Topoi: the Categorial Analysis of Logic**.
+A reading group that met weekly to discuss topics related to the application of category theory to logic. As of Summer 2026, we are focused on [topos theory](https://ncatlab.org/nlab/show/topos). We are currently reading Robert Goldblatt's **Topoi: the Categorial Analysis of Logic**.
 
 ### Schedule
 Starting **May 12, 2026**, we meet at **<time class="local-time time-only" datetime="2026-06-02T20:00:00-04:00">
   8:00 PM Eastern
-</time>** on the ILF Categorical Logic voice channel within the [discord server](https://discord.com/invite/GqyMYurz3).
+</time>** on the ILF Categorical Logic voice channel within the [discord server](https://discord.gg/5BRDy8rYg).
 
-A more complete schedule with tenative topics can be found [here](https://docs.google.com/spreadsheets/d/12U5UZWh7pqOU_zV92sXX0LmpECJVU5VBQJzbxJPtSTA/edit?gid=0#gid=0).
+## Session 2
+Session 2 of **ILF Categorical Logic** is currently running weekly on Tuesdays at **<time class="local-time time-only" datetime="2026-06-02T20:00:00-04:00">
+  8:00 PM Eastern
+</time>**. This session is a workshop where no preparation is neccessary. 
 
-
+## Session 1
 ### Reading Structure
 Readings and exercises are provided after the prior meeting. Due to chaotic and uneven schedules, we have **three tiers** of participation in our reading group. **Note:** even if you are unable to complete one of these tiers, we still encourage you to show up to meetings. 
 

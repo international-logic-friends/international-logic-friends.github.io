@@ -11,6 +11,6 @@ bottom_image_width: 380px
 
 We welcome members of any background or field.
 
-To join ILF, please apply through [this link](https://discord.com/invite/GqyMYurz3).
+To join ILF, please apply through [this link](https://discord.gg/5BRDy8rYg).
 
 Provide your full name, institution if you have one, and education level. The application is intended to prevent bots and spam, not people from joining.
