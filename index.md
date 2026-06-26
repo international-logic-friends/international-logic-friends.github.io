@@ -13,7 +13,7 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 <div class="announcement" markdown="1">
 
-**ILF Categorical Logic** will meet on **<time class="local-time" datetime="2026-06-23T20:00:00-04:00">8:00 PM Eastern</time>** for an interactive session on properties of categories. 
+**ILF Categorical Logic** will meet on **<time class="local-time" datetime="2026-06-30T20:00:00-04:00">8:00 PM Eastern</time>** for an interactive session on properties of categories. 
 
 </div>
 
