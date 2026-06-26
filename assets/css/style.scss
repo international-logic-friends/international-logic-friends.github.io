@@ -617,6 +617,10 @@ code {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  /* GPU compositing layer prevents jittering on mobile scroll */
+  -webkit-transform: translateX(-50%) translateZ(0);
+  transform: translateX(-50%) translateZ(0);
+  will-change: transform;
 
   width: min(var(--decoration-width), 82vw);
   height: auto;
@@ -630,18 +634,21 @@ code {
 
 .fixed-page-decoration.decoration-left {
   left: 1.5rem;
-  transform: none;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .fixed-page-decoration.decoration-right {
   left: auto;
   right: 1.5rem;
-  transform: none;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .fixed-page-decoration.decoration-center {
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%) translateZ(0);
+  transform: translateX(-50%) translateZ(0);
 }
 
 @media (max-width: 700px) {
