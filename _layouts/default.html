@@ -1,27 +1,31 @@
 <!doctype html>
- {% include nav.html %}
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <body{% if page.bottom_image %} class="has-fixed-decoration"{% endif %}></body>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}?v=2" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body{% if page.bottom_image %} class="has-fixed-decoration"{% endif %}>
+    {% include nav.html %}
+
     <main class="site-main">
       {{ content }}
     </main>
+
     {% if page.bottom_image %}
-  <img
-    class="fixed-page-decoration {{ page.bottom_image_class }}"
-    src="{{ page.bottom_image | relative_url }}"
-    style="--decoration-width: {{ page.bottom_image_width | default: '420px' }};"
-    alt="{{ page.bottom_image_alt | default: '' }}"
-    {% unless page.bottom_image_alt %}aria-hidden="true"{% endunless %}>
-{% endif %}
+    <img
+      class="fixed-page-decoration {{ page.bottom_image_class }}"
+      src="{{ page.bottom_image | relative_url }}"
+      style="--decoration-width: {{ page.bottom_image_width | default: '420px' }};"
+      alt="{{ page.bottom_image_alt | default: '' }}"
+      {% unless page.bottom_image_alt %}aria-hidden="true"{% endunless %}>
+    {% endif %}
+
     <script src="{{ '/assets/js/external-links.js' | relative_url }}" defer></script>
-<script src="{{ '/assets/js/local-time.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/local-time.js' | relative_url }}" defer></script>
   </body>
 </html>
