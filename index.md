@@ -23,4 +23,4 @@ As of summer 2026, we are running the **ILF Categorical Logic** reading group. W
   8:00 PM Eastern
 </time>** on our [Discord server](https://discord.gg/5BRDy8rYg) to discuss **Topoi: The Categorical Analysis of Logic** by Robert Goldblatt. We would love to have you join us!
 
-Website last updated on {{ site.time | date: "%B %-d, %Y" }}.
+Website last updated on **{{ site.time | date: "%B %-d, %Y" }}**.
