@@ -2,6 +2,9 @@
 layout: default
 title: About
 permalink: /about/
+bottom_image: /assets/images/axolotlicon1.png
+bottom_image_class: decoration-right
+bottom_image_width: 380px
 ---
 
 ## About
