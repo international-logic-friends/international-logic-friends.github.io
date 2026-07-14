@@ -668,3 +668,17 @@ code {
     right: 0.75rem;
   }
 }
+
+/* Website update date */
+
+.site-updated {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: right;
+}
