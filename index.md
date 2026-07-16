@@ -8,12 +8,11 @@ bottom_image_width: 380px
 
 ## International Logic Friends
 
-{: .lede}
 A student-run virtual logic community that hosts reading groups and discussion. We welcome anyone, no matter specific interest or background.
 
 <div class="announcement" markdown="1">
 
-**ILF Categorical Logic** will meet on **<time class="local-time" datetime="2026-07-14T20:00:00-04:00">8:00 PM Eastern</time>** for an interactive session on properties of categories. 
+**ILF Categorical Logic** will meet on **<time class="local-time" datetime="2026-07-21T20:00:00-04:00">8:00 PM Eastern</time>** for our last session on properties of categories for this summer. 
 
 </div>
 
@@ -23,4 +22,4 @@ As of summer 2026, we are running the **ILF Categorical Logic** reading group. W
   8:00 PM Eastern
 </time>** on our [Discord server](https://discord.gg/5BRDy8rYg) to discuss **Topoi: The Categorical Analysis of Logic** by Robert Goldblatt. We would love to have you join us!
 
-Website last updated on **{{ site.time | date: "%B %-d, %Y" }}**.
+### Website last updated on **{{ site.time | date: "%B %-d, %Y" }}**.
