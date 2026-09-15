@@ -16,4 +16,6 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 </div>
 
+To join ILF, visit [this link](https://discord.gg/PBDngZs6R).
+
 ### Website last updated on **{{ site.time | date: "%B %-d, %Y" }}**.
