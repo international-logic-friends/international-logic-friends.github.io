@@ -7,6 +7,10 @@ bottom_image_class: decoration-right
 bottom_image_width: 380px
 ---
 
+## ILF Categorical Logic Fall 2026
+
+Nothing yet!
+
 ## ILF Categorical Logic Summer 2026 Session 1
 
 **Session 1** comprised of traditional lectures covering chapters 2-5 of Topoi by Goldblatt. If self studying, this is probably preferable. 

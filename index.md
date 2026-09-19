@@ -12,10 +12,12 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 <div class="announcement" markdown="1">
 
-**ILF Categorical Logic** will meet again in the fall semester. 
+**ILF Categorical Logic Fall 2026** will begin meeting on Thursday, September 24 at **<time class="local-time" datetime="2026-09-24T19:00:00-04:00">7:00 PM Eastern</time>**. 
+
+In preparation, we recommend reading ***Chapter 2: What Categories Are*** from Goldblatt's Topoi. 
+
+As previously, meetings will be held in the ILF Categorical Logic meeting channel on the Discord server, which you can join [here](https://discord.gg/PBDngZs6R). 
 
 </div>
-
-To join ILF, visit [this link](https://discord.gg/PBDngZs6R).
 
 ### Website last updated on **{{ site.time | date: "%B %-d, %Y" }}**.
