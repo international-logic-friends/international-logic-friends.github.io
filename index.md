@@ -12,7 +12,7 @@ A student-run virtual logic community that hosts reading groups and discussion. 
 
 <div class="announcement" markdown="1">
 
-**ILF Categorical Logic Fall 2026** will begin meeting on Thursday, September 24 at **<time class="local-time" datetime="2026-09-24T19:00:00-04:00">7:00 PM Eastern</time>**. 
+**ILF Categorical Logic Fall 2026** will begin meeting on **<time class="local-time" datetime="2026-09-24T19:00:00-04:00">7:00 PM Eastern</time>**. 
 
 In preparation, we recommend reading ***Chapter 2: What Categories Are*** from Goldblatt's Topoi. 
 
